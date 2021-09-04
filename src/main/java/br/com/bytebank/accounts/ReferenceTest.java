@@ -1,9 +1,9 @@
-package org.example;
+package br.com.bytebank.accounts;
 
 public class ReferenceTest {
 
     public static void main(String[] args) {
-        Account c1 = new Account(4545,21545);
+        CheckingAccount c1 = new CheckingAccount(4545,21545);
         c1.deposit(300);
 
         System.out.println("Saldo da primeira conta" + c1.getBalance());

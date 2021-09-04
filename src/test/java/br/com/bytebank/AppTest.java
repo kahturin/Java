@@ -1,4 +1,4 @@
-package org.example;
+package br.com.bytebank;
 
 import static org.junit.Assert.assertTrue;
 

@@ -1,9 +1,10 @@
-package org.example;
+package br.com.bytebank.accounts;
 
 public class Client {
+
     private String name;
     private String cpf;
-    private String profissao;
+    private String profession;
 
     public String getName() {
         return name;
@@ -21,11 +22,11 @@ public class Client {
         this.cpf = cpf;
     }
 
-    public String getProfissao() {
-        return profissao;
+    public String getProfession() {
+        return profession;
     }
 
-    public void setProfissao(String profissao) {
-        this.profissao = profissao;
+    public void setProfession(String profession) {
+        this.profession = profession;
     }
 }

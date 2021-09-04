@@ -1,9 +1,9 @@
-package org.example;
+package br.com.bytebank.accounts;
 
 public class GettersAndSettersTest {
 
     public static void main(String[] args) {
-        Account account = new Account(1234, 46555);
+        SavingsAccount account = new SavingsAccount(1234, 46555);
         account.setNumber(9022);
         System.out.println(account.getNumber());
 

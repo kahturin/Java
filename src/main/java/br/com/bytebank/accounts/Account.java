@@ -1,6 +1,7 @@
-package org.example;
+package br.com.bytebank.accounts;
 
-public class Account {
+abstract class Account {
+
     private double balance;
     private int agency;
     private int number;
@@ -9,15 +10,14 @@ public class Account {
 
     public Account(int agency, int number) {
         Account.total++;
-        System.out.println("O total de contas é " + Account.total);
+        System.out.println("The total of accounts is " + Account.total);
         this.agency = agency;
         this.number = number;
     }
 
     public String deposit(double value){
         this.balance += value;
-        return "\n" +
-                "the value of " + value + "has been deposited";
+        return "the value of " + value + "has been deposited";
     }
 
     public boolean withdraw(double value){

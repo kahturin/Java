@@ -1,9 +1,9 @@
-package org.example;
+package br.com.bytebank.accounts;
 
 public class AccountWithoutClientTest {
 
     public static void main(String[] args) {
-        Account pauloAccount = new Account(21113, 45114);
+        SavingsAccount pauloAccount = new SavingsAccount(21113, 45114);
         System.out.println(pauloAccount.getBalance());
 
         pauloAccount.setHolder(new Client());
