@@ -1,6 +1,5 @@
 
 ############ Java Orientação a Objetos ############
-
 Em introdução à Orientação a Objetos, os tópicos práticados foram:
 
 1. Paradigma procedural vs Objetos;
@@ -19,6 +18,7 @@ Em introdução à Orientação a Objetos, os tópicos práticados foram:
 
 ################ Java Polimorfismo ################
 Em Polimorfismo, os tópicos práticados foram:
+
 1. Code smells
 2. Herança 
 3. Diagrama de classes
@@ -34,3 +34,14 @@ Em Polimorfismo, os tópicos práticados foram:
 
 
 ################ Java Exceptions: Aprendendo a criar, lançar e controlar exceptions ################
+Em Polimorfismo, os tópicos práticados foram:
+
+1. Pilha de execução (callstack)
+2. Depuração e Debugger
+3. Exceptions
+4. Try Catch
+5. Multi catch
+6. Lançando Exceptions
+7. Hierarquia de Exceptions
+8. Checked e unchecked
+9. Catch genérico
