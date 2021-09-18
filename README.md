@@ -61,3 +61,13 @@ Em java.lang, os tópicos práticados foram:
 2. FQN;
 2. Importar pacotes;
 3. Gerenciando pacotes;
+4. Modificadores;
+5. Javadoc;
+6. Criando uma biblioteca com JAR;
+7. Maven;
+8. Exceções do java.lang;
+9. Classe String;
+10. CharSequence;
+11. Classe Object;
+12. O método toString();
+13. 
