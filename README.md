@@ -70,4 +70,28 @@ Em java.lang, os tópicos práticados foram:
 10. CharSequence;
 11. Classe Object;
 12. O método toString();
-13. 
+
+################ Java e java.util: Coleções, Wrappers e Lambda expressions ################
+
+Wrappers e Lambdas, os tópicos práticados foram:
+
+1. Arrays de referências e Forma literal
+2. Arrays do tipo Object
+3. Cast explicito e implícito
+4. ClassCastException
+5. Adapter para arrays
+6. ArrayList
+7. Generics
+8. O método equals
+9. List e LinkedList
+10. Alternativa threadsafe
+11. Interface Collection
+12. Vector
+13. Autoboxing e Unboxing
+14. O Wrapper Integer
+15. Parsing
+16. Ordenanação
+17. Classes anônimas
+18. Lambdas
+19. Foreach com lambda
+
