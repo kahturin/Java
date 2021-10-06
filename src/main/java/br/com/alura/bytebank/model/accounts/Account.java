@@ -7,7 +7,7 @@ package br.com.alura.bytebank.model.accounts;
  * @version 1.0
  */
 
-public abstract class Account {
+public abstract class Account extends Object{
 
     private double balance;
     private int agency;
@@ -82,5 +82,18 @@ public abstract class Account {
 
     public double getBalance() {
         return balance;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Account ref = (Account) obj;
+
+        if (this.agency != ref.agency){
+            return false;
+        }
+        if (this.number != number){
+            return false;
+        }
+        return true;
     }
 }
