@@ -73,7 +73,7 @@ Em java.lang, os tópicos práticados foram:
 
 ################ Java e java.util: Coleções, Wrappers e Lambda expressions ################
 
-Wrappers e Lambdas, os tópicos práticados foram:
+Em Wrappers e Lambdas, os tópicos práticados foram:
 
 1. Arrays de referências e Forma literal
 2. Arrays do tipo Object
@@ -95,3 +95,26 @@ Wrappers e Lambdas, os tópicos práticados foram:
 18. Lambdas
 19. Foreach com lambda
 
+################ Java e java.io: Streams, Reader e Writers ################
+
+Em java.io, os tópicos práticados foram:
+1. InputStream e Reader
+2. Leitura de linhas e leitura de arquivos
+3. OutputStream e Writer
+4. Escrita de forma binária
+5. Flexibilidade no I/O
+6. Escrevendo no console
+7. Saída com FileWriter
+8. PrintWriter e PrintStream
+9. Escrita independente do sistema
+10. currentTimeMillis
+11. Leitura com Scanner
+12. Formatação de valores e formatação expressiva
+13. Character Sets
+14. FAQ do UNICODE
+15. Encoding no Windows, encoding no Java e encoding com java.io
+16. UTF-8 no arquivo
+17. Serialização Java
+18. Fluxo binário
+19. serialVersionUID
+20. Serializando com herança
